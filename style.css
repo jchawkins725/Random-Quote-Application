@@ -1,0 +1,50 @@
+
+  .page {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: blue;
+    text-align: center;
+    font-size: 25px;
+  }
+  .container-fluid {
+    max-width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 25px;
+  }
+  .row {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+  #quote-box {
+    background-color: white;
+  }
+  #text {
+    display: inline;  
+    padding: 10px;
+  }  
+  .quote {
+    display: inline;
+    text-align: center;
+  }
+  #author {
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  #new-quote {
+    font-size: 18px;
+  }
+  #tweet-quote {
+    font-size: 24px;
+    color: white;
+    background-color: blue;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
