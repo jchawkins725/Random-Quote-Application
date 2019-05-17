@@ -33,9 +33,16 @@ const quotes = [
   $("#new-quote").click(function() {
     const random = Math.floor(Math.random()* quotes.length);
     currentQuote = quotes[random].quote;
-    currentAuthor = quotes[random].author
-    $("#text").html(currentQuote);
-    $("#author").html("- " + currentAuthor + " -");
+    currentAuthor = quotes[random].author;
+    setTimeout (function () {
+        $("#text").html(currentQuote);
+        $("#author").html("- " + currentAuthor + " -");}, 500)   
+    $("#quote-author").animate(
+        { opacity: 0 },
+        500,
+        function() {
+            $(this).animate({ opacity: 1}, 500);
+    });
   });
   
   

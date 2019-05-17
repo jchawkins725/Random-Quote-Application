@@ -1,9 +1,12 @@
+$navy: #001f3f;
+$green: rgb(0, 168, 107, .85);
+$greenhover: rgb(0, 168, 107);
 
   .page {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: blue;
+    background-color: $navy;
     font-size: 25px;
     text-align: center;
   }
@@ -23,9 +26,13 @@
   #quote-box {
     background-color: white;
   }
+  .fa-quote-left {
+    color: $green;
+  }
   #text {
     display: inline;  
     padding: 10px 10px;
+    font-size: 30px;
   }  
   .quote {
     display: inline;
@@ -38,14 +45,22 @@
   }
   #new-quote {
     font-size: 18px;
+    background-color: $green;
+    border: none;
+    &:hover {
+        background-color: $greenhover;
+    }
   }
   #tweet-quote {
     font-size: 24px;
     color: white;
-    background-color: blue;
+    background-color: $green;
     padding: 6px 10px;
     border-radius: 4px;
     cursor: pointer;
+    &:hover {
+        background-color: $greenhover;
+    }
   }
   
   
