@@ -1,3 +1,7 @@
-# Random-Quote-Application
+# Random Quote Application
 
-Random Quote Generator built for FreeCodeCamp using BootStrap and JQuery.
+Random Quote Generator built using BootStrap and JQuery.
+
+## Features
+* Random quote from API call
+* Twitter integration
